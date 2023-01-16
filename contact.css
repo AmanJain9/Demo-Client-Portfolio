@@ -1,0 +1,246 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+
+}
+body{
+    background-image: url("bg12.jfif");
+}
+
+.page-content{
+    display: flex;
+    position: relative;
+}
+
+.page-content .side-bar
+{
+    position: fixed;
+    width: 250px;
+    height: 100%;
+    background: black;
+    padding: 30px 0;
+    background-color:#461220;
+    font-family: 'Lora', serif;
+    font-family: 'Playfair Display', serif;
+    font-weight: lighter;
+
+}
+
+
+
+.page-content .side-bar h2
+{
+    color:white;
+    text-align: center;
+    margin-top: 12px;
+    margin-bottom: 30px;
+}
+
+
+.navigation-bar
+{
+    list-style: none;
+}
+.navigation-bar li
+{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 15px;
+
+}
+
+.navigation-bar li:hover{
+    background-color: #8C2F39;
+    background-image: linear-gradient(to left,#461220  , #fed0bb8a);
+}
+
+.navigation-bar li a{
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+    display: block;
+    color: white;
+    margin-left: 20px;
+
+}
+
+.side-bar img{
+    height: 200px;
+    width: 160px;
+    margin-left: 40px;
+    border-radius: 50%;
+}
+
+.fa
+{
+    padding: 6px;
+}
+
+
+.navigation-bar li:hover a{
+    color: #461220;
+    padding-left: 20px;
+
+}
+
+
+form{
+    max-width: 500px;
+    height: 500px;
+border-radius:20px;
+margin: auto;
+background: rgba(0,0,0,0.3);
+/*box-sizing: border-box;*/
+padding: 40px;
+color: #fff;
+margin-top: 120px;
+margin-left: 400px;
+}
+
+.t1
+{
+    width: 100%;
+box-sizing: border-box;
+padding: 12px 5px;
+background: rgba(0,0,0,0.3);
+outline: none;
+border: none;
+border: 0.5px solid #fff;
+color:white;
+border-radius: 5px;
+margin: 5px;
+font-weight: bold;
+}
+
+.b1
+{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px 0;
+    margin-top: 30px;
+    outline: none;
+    border: none;
+    background: rgba(0,0,0,0.3);
+    opacity: o.4;
+    border-radius: 20px;
+    border: 0.5px solid #fff;
+    font-size: 20px;
+    color: #fff;
+}
+
+.b1:hover
+{
+    background-image: linear-gradient(to left,#461220  , #fed0bb8a);
+    opacity:1;
+    cursor: pointer;
+}
+
+.contact-details
+{
+    margin-left: 1300px;
+    margin-top: -500px;
+}
+
+.contact-details p{
+    color: white;
+    font-family: 'Lora', serif;
+    font-family: 'Playfair Display', serif;
+    font-size:20px;
+
+}
+span{
+    margin-left: 106px;
+}
+.contact-details .fa
+{
+padding:6px;
+
+}
+@media only screen and (max-width:760px)
+{
+
+
+
+    .page-content .side-bar
+    {
+     
+        width: 100px;
+    
+    }
+    
+    
+    
+    .page-content .side-bar h2
+    {
+        color:white;
+        text-align: center;
+        margin-top: 12px;
+        margin-bottom: 10px;
+        font-size:15px;
+    }
+    
+    
+ 
+    .navigation-bar li
+    {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        padding: 8px;
+    
+    }
+    .navigation-bar li a{
+        font-size: 11px;
+        font-weight: bold;
+        padding: 10px;
+        display: block;
+        color: white;
+        margin-left: 0px;
+    
+    }
+    
+    .side-bar img{
+        height: 100px;
+        width: 80px;
+        margin-left: 12px;
+        border-radius: 50%;
+    }
+    
+    .fa
+    {
+        padding: 1px;
+    }
+    form{
+        max-width: 250px;
+        height: 500px;
+    padding: 20px;
+    margin-top: 20px;
+    margin-left: 110px;
+
+    }
+    
+    
+    .b1
+    {
+        font-size: 15px;
+    }
+    
+    .contact-details
+    {
+        margin-left: 110px;
+        margin-top: 40px;
+    }
+    
+    .contact-details p{
+        color: white;
+        font-family: 'Lora', serif;
+        font-family: 'Playfair Display', serif;
+        font-size:15px;
+        margin-top:-30px;
+    
+    }
+    span{
+        margin-left: 0px;
+    }
+}
